@@ -9,8 +9,8 @@ def funcAnalyze(text):
     print("Most common words in the text:")
     for word, wordCount in mostCommon:
         print(f"{word}: {wordCount}")
-    print("Average word lenght is: " + avgLen)
-    print("Number of words is: " + wordsNum)
+    print("Average word lenght is: " + str(avgLen))
+    print("Number of words is: " + str(wordsNum))
     
 
 
