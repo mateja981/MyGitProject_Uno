@@ -11,6 +11,7 @@ def funcAnalyze(text):
         print(f"{word}: {wordCount}")
     print("Average word lenght is: " + str(avgLen))
     print("Number of words is: " + str(wordsNum))
+    #TEST
     
 
 
