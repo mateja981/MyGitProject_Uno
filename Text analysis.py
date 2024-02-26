@@ -7,7 +7,7 @@ def funcAnalyze(text):
     print("Most common words in the text:")
     for word, wordCount in mostCommon:
         print(f"{word}: {wordCount}")
-
+    #Test for the new branch
 
 print("Enter the name of the text file to analyze: ")
 dir = input()
