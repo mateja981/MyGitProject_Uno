@@ -12,7 +12,6 @@ def funcAnalyze(text):
     print("Average word lenght is: " + str(avgLen))
     print("Number of words is: " + str(wordsNum))
 
-    #This is some new line in our new-branch
     #Test for the new branch
     #Stats about words
     with open('Stats.txt', 'w') as f:
