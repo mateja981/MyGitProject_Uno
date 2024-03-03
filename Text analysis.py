@@ -11,9 +11,20 @@ def funcAnalyze(text):
         print(f"{word}: {wordCount}")
     print("Average word lenght is: " + str(avgLen))
     print("Number of words is: " + str(wordsNum))
-    #TEST
     
 
+    #Test for the new branch
+    #Stats about words
+    with open('Stats.txt', 'w') as f:
+
+        for word,wordCount in mostCommon:
+            percentage = wordCount * 100 / len(words)
+            f.write(f"{word}:{percentage:.2f}%\n")
+    
+    f.close()
+
+                    
+        
 
 print("Enter the name of the text file to analyze: ")
 dir = input()
