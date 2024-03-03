@@ -8,6 +8,7 @@ def funcAnalyze(text):
     for word, wordCount in mostCommon:
         print(f"{word}: {wordCount}")
 
+    #This is some new line in our new-branch
     #Test for the new branch
     #Stats about words
     with open('Stats.txt', 'w') as f:
