@@ -12,7 +12,7 @@ def funcAnalyze(text):
     print("Average word lenght is: " + str(avgLen))
     print("Number of words is: " + str(wordsNum))
 
-    #main
+    #SecondCommit
     #Test for the new branch
     #Stats about words
     with open('Stats.txt', 'w') as f:
