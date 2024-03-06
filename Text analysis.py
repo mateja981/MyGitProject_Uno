@@ -15,8 +15,7 @@ def funcAnalyze(text):
     #Added Com
     #Test for the new branch
     #Stats about words
-    #with open('Stats123.txt', 'w') as f:
-    print("Hello World")
+    with open('Stats123.txt', 'w') as f:
         for word,wordCount in mostCommon:
             percentage = wordCount * 100 / len(words)
             f.write(f"{word}:{percentage:.2f}%\n")
