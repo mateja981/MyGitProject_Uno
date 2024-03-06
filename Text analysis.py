@@ -12,9 +12,10 @@ def funcAnalyze(text):
     print("Average word lenght is: " + str(avgLen))
     print("Number of words is: " + str(wordsNum))
 
+    #Added Com
     #Test for the new branch
     #Stats about words
-    with open('Stats.txt', 'w') as f:
+    with open('Stats123.txt', 'w') as f:
 
         for word,wordCount in mostCommon:
             percentage = wordCount * 100 / len(words)
