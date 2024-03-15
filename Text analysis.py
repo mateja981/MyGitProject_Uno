@@ -13,6 +13,7 @@ def funcAnalyze(text):
     print("Number of words is: " + str(wordsNum))
 
     #Added Com
+    #New Line
     #Test for the new branch
     #Stats about words
     with open('Stats.txt', 'w') as f:
